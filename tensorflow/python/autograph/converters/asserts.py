@@ -46,3 +46,5 @@ class AssertTransformer(converter.Base):
 def transform(node, ctx):
   node = AssertTransformer(ctx).visit(node)
   return node
+def test():
+    pass
